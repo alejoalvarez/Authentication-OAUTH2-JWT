@@ -1,4 +1,4 @@
-package datastructures.linkedlist;
+package datastructures.linkedlist.doublylinkedlist;
 
 public class DoubleLinkedList {
 

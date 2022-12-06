@@ -1,4 +1,4 @@
-package datastructures.linkedlist;
+package datastructures.linkedlist.singlylinkedlist;
 
 public class SinglyLinkedList {
 

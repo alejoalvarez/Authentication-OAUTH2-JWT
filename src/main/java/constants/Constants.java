@@ -2,11 +2,21 @@ package constants;
 
 public class Constants {
 
-    public static int NUMBER1 = 111;
-    public static int NUMBER2 = 222;
+    public static final int NUMBER1 = 111;
+    public static final double PI = 3.1416;
+    public static final String NAME = "Alejo";
+    public static final boolean CHECK = true;
 
-    public void printConstants(){
-        int result = NUMBER1 + NUMBER2;
-        System.out.println("Constants: " + result);
+    public static void printConstants(){
+        // NUMBER1 = 11; // not allow
+        // PI = 314165 // not allow
+        System.out.println("Constant int: " + NUMBER1);
+        System.out.println("Constant double: " + PI);
+        System.out.println("Constant String: " + NAME);
+        System.out.println("Constant boolean: " + CHECK);
+    }
+
+    public static void main(String[] args) {
+        printConstants();
     }
 }

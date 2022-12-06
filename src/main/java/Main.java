@@ -1,7 +1,7 @@
 import constants.Constants;
 import datatypes.DataTypes;
 import dates.Dates;
-import datastructures.linkedlist.SinglyLinkedList;
+import datastructures.linkedlist.singlylinkedlist.SinglyLinkedList;
 import methods.Methods;
 import operators.Operators;
 import string.StringClass;
@@ -24,7 +24,6 @@ class Main{
         Constants constants = new Constants();
         constants.printConstants(); // Print 333
         System.out.println("Constants1: " + Constants.NUMBER1); // Print 111
-        System.out.println("Constants2: " + Constants.NUMBER2); // Print 222
 
         // DataTypes
         System.out.println("--------------" + " DataTypes " + "--------------");
@@ -51,6 +50,7 @@ class Main{
         dates.printLocalDate();
         dates.printLocalTime();
         dates.printLocalDateTime();
+        dates.printDateFormatter();
 
         // StringClass
         System.out.println("--------------" + " String Class " + "--------------");
@@ -63,6 +63,9 @@ class Main{
         stringClass.printCompareStringWithEqualEqual("Alejo1", "Alejo1"); // compare with (==) string1 and string2: is equal
         stringClass.printCompareStringWithEqualEqual("Alejo1", "alejo1"); // compare with (==) string1 and string2: is false
         stringClass.printCompareStringWithEqualEqual("Alejo11", "Alejo11"); // compare with (==) string11 and string22: is false
+        stringClass.printSubString();
+        stringClass.printStringClassMethods();
+        stringClass.printStringBufferClassMethods();
 
         // Array
         System.out.println("--------------" + " Array " + "--------------");
