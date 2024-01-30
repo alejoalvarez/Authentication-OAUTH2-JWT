@@ -1,4 +1,4 @@
-package dates;
+package core.dates;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -32,5 +32,14 @@ public class Dates {
         DateTimeFormatter myFormatObj = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         String formattedDate = myDateObj.format(myFormatObj);
         System.out.println("After formatting: " + formattedDate); // dd-MM-yyyy HH:mm:ss
+    }
+
+    public static void main(String[] args) {
+        System.out.println("--------------" + " Printing Dates " + "--------------");
+        Dates dates = new Dates();
+        dates.printLocalDate();
+        dates.printLocalTime();
+        dates.printLocalDateTime();
+        dates.printDateFormatter();
     }
 }

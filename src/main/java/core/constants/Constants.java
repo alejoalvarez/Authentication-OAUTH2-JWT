@@ -1,5 +1,6 @@
-package constants;
+package core.constants;
 
+// Refers to values that do not change during program execution
 public class Constants {
 
     public static final int NUMBER1 = 111;
@@ -17,6 +18,7 @@ public class Constants {
     }
 
     public static void main(String[] args) {
+        System.out.println("--------------" + " Printing Constants " + "--------------");
         printConstants();
     }
 }

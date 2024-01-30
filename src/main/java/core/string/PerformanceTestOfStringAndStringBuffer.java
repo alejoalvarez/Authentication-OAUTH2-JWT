@@ -1,4 +1,4 @@
-package string;
+package core.string;
 
 public class PerformanceTestOfStringAndStringBuffer {
 
