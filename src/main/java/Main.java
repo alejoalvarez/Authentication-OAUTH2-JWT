@@ -1,5 +1,4 @@
-import datastructures.linkedlist.singlylinkedlist.SinglyLinkedList;
-import core.string.StringClass;
+import datastructures.linkedlist.SinglyLinkedList;
 
 class Main{
 

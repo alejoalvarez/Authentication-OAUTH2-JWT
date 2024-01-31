@@ -1,6 +1,10 @@
-package datastructures.linkedlist.singlylinkedlist;
+package datastructures.linkedlist;
 
 public class SinglyLinkedList {
+    /**
+     * A singly-linked list is a linked list that stores data and the reference to the next node or a null value.
+     * Singly-linked lists are also known as one-way lists as they contain a node with a single pointer pointing to the next node in the sequence.
+     */
 
     // represent head and tail of the singly linked list
     Node head = null;
